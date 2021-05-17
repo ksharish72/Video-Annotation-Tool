@@ -1,0 +1,45 @@
+POSTURE,HIGH LEVEL BEHAVIOR,PA TYPE,Behavioral Parameters,Experimental situation
+Sitting,Playing sport/games,Sitting still,Holding briefcase/bag,Free living indoors
+Upright,Playing exergame,Sitting with movement,Carrying bag on shoulder/back,Lab indoors
+Lying on back,Driving car,Standing still,Carrying grocery bags,Free living outdoors
+Lying on right side,Ridiing vehicle as passenger,Standing with movement,In conversation,Other
+Lying on left side,Doing Common housework,Organizing shelf/cabinet,On phone call,Too complex
+Reclining,Doing home repair,Lying still,On video call/facetime,Indecipherable/Video insufficient
+Sloouching,Cooking/prepping food,Lying with movement,Holding drink,Unlabeled
+Other,Doing laundry,Cycling stationary bike,Holding solid food,
+Too complex,Doing dishes,Walking treadmill,Holding book/reader,
+Indecipherable/Video insufficient,Cleaning,Running treadmill,Holding other object,
+Unlabeled,Bathing pet,Actively pedaling regular bicycle,Drinking actively,
+,Walking pet,Vacuuming,Eating actively,
+,Packing/unpacking something,Sweeping,Writing,
+,Loading/unloading vehicle,Dusting,Typing computer,
+,Grooming,Wet mopping,Browsing computer,
+,Dressing/undressing,Dryin mopping,Texting/browsing phone,
+,Gardening,Walking down stairs,Hands in pocket,
+,Playing with children,Walking up stairs,Legs crossed,
+,Playing with pets,Walking,Other,
+,Doing alternative therapy/Exercising/Streching,Playing frisbee,Too complex,
+,Doing martial arts,Brushing teeth,Indecipherable/Video insufficient,
+,Dancing,Brushing/combing hair,Unlabeled,
+,Playing musical instrument,Blowdrying hair,,
+,In transit,Washing face,,
+,Working,Applying makeup,,
+,Socializing,Ironing,,
+,Relaxing,Folding Clothes,,
+,Grocery shopping,Putting clothes away,,
+,Shopping non-grocery,Loading/unloading washing machine,,
+,Meeting formal gathering,Watering plants,,
+,Meeting social gathering,Doing resistance training weights,,
+,Eating/dining,Doing resistance training other,,
+,WatchingTV/movies,Other,,
+,Doing resistance training,Too complex,,
+,Cycling regular bicycle,Indecipherable/Video insufficient,,
+,Exercising gym other,Unlabeled,,
+,Riding escalator up,,,
+,Riding escalator down,,,
+,Riding elevator up,,,
+,Riding elevator down,,,
+,Other,,,
+,Too complex,,,
+,Indecipherable/Video insufficient,,,
+,Unlabeled,,,

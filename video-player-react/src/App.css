@@ -1,0 +1,320 @@
+.App {
+  text-align: center;
+}
+
+/* video{
+  -moz-transform:rotate(90deg) !important;
+  -webkit-transform:rotate(90deg) !important;
+  -o-transform:rotate(90deg) !important;
+  -ms-transform:rotate(90deg) !important;
+  transform:rotate(90deg) !important;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.video-players {
+  margin-top: 10px;
+  display: -webkit-inline-flex;
+}
+
+.video-js .vjs-time-control {
+  display: block !important;
+}
+
+.video-90 .vjs-tech {
+  top: 83px !important;
+  transform: rotate( 90deg);
+  height: 210px !important;
+}
+.video-180 .vjs-tech {
+  top: 83px !important;
+  transform: rotate( 180deg);
+  height: 210px !important;
+}
+.video-270 .vjs-tech {
+  top: 83px !important;
+  transform: rotate( 270deg);
+  height: 210px !important;
+}
+
+
+.video-js .vjs-remaining-time {
+  display: none;
+}
+
+.preview-video {
+  pointer-events: none;
+}
+
+.vjs-big-play-button {
+  display: none !important;
+}
+
+.default-video {
+  margin-right: 25px;
+}
+
+.labelling-mode {
+  background-color: red !important;
+}
+
+/*for displaying the timeline outside the player*/
+
+.vjs-progress-control {
+  position: absolute !important;
+  bottom: 26px;
+  /* The height of the ControlBar minus 4px. */
+  left: 0;
+  right: 0;
+  width: inherit !important;
+  height: 10px;
+  /* the height must be reduced from 30 to 10px in order to allow the buttons below (e.g. play) to be pushed */
+}
+
+.vjs-progress-holder {
+  /* needed to have a real 100% width display. */
+  margin-left: 0px;
+  margin-right: 0px;
+  z-index: 15 !important;
+}
+
+/*for displaying the timeline outside the player*/
+
+.vjs-fluid {
+  overflow: hidden;
+}
+
+.default-video .vjs-control-bar {
+  display: block;
+}
+
+.default-video .vjs-progress-control {
+  top: 80px;
+  left: 0;
+  height: 10px;
+  width: 100%;
+}
+
+.vjs-default-skin.vjs-has-started .vjs-control-bar {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/*Videojs marker */
+
+.vjs-marker {
+  height: 50px !important;
+  color: transparent !important;
+  width: 2px !important;
+  top: -30px !important;
+  border-radius: 0 !important;
+}
+
+.vjs-marker.zoom-range:hover {
+  transform: none !important;
+  cursor: e-resize !important;
+}
+
+.vjs-marker.start-label:hover {
+  transform: none !important;
+}
+
+.vjs-marker.black-pixel {
+  background-color: black !important;
+  height: 30px !important;
+  top: -18px !important
+}
+
+.vjs-marker.start-label {
+  background-color: green !important;
+}
+
+/*slider css */
+
+.MuiSlider-root {
+  top: 460px
+}
+
+.MuiSlider-thumb {
+  background-color: currentColor !important;
+}
+
+/*Category choices CSS*/
+
+.category {
+  margin-top: 30px;
+}
+
+/*Custom Seekbar*/
+
+#custom-seekbar {
+  top: 505px;
+  cursor: pointer;
+  height: 5px;
+  margin-bottom: 10px;
+  outline: thin solid #000000;
+  position: relative;
+}
+
+#custom-seekbar span {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 0px;
+}
+
+.seekbarTimeStartTime {
+  position: absolute;
+  color: black;
+  font-weight: 600;
+}
+
+.seekbarTimeEndTime {
+  left: 50px;
+  position: absolute;
+  color: black;
+  font-weight: 600;
+}
+
+/*modify default video player timeline*/
+
+.vjs-play-progress {
+  background-color: black !important;
+}
+
+.video-js .vjs-play-progress:before {
+  color: black;
+}
+
+/* Custom Seekbar label*/
+
+.zoomedLabel {
+  width: 49px;
+  height: 25px;
+  background-color: rgba(0, 166, 194, 0.65);
+  cursor: pointer;
+  top: 495px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.zoomedLabel-active, .zoomedLabel:hover {
+  background-color: rgba(238, 212, 40, 0.65);
+}
+
+.customprogress-bar ::before {
+  font-size: 0.9em;
+  position: absolute;
+  right: -0.5em;
+  top: -3px;
+  z-index: 1;
+  height: 10px;
+  content: " ";
+  background-color: black;
+  width: 10px;
+  border-radius: 50%
+}
+
+.customSeekbarControlBar {
+  top: 515px;
+  position: relative;
+  height: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.customSeekbarTimeDivider {
+  position: absolute;
+  left: 44px;
+}
+
+/*single annotation style*/
+
+div.vac-marker.vac-ranged-marker {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  /* pointer-events: none; */
+}
+
+.video-js .vac-marker-owrap .vac-marker-wrap.vac-dim-all .vac-marker {
+  opacity: initial !important;
+}
+
+/* default timeline Tooltip css */
+
+.vac-tooltip {
+  max-width: none !important;
+  height: auto !important;
+}
+
+.vac-tooltip.vac-right-side {
+  right: auto !important;
+}
+
+.tooltipTable {
+  color: white !important;
+}
+
+.vac-force-tooltip>div {
+  display: none !important;
+}
+
+.vac-hovering>div {
+  display: block !important;
+}
+
+.video-js .vjs-tech {
+  outline-color: white;
+}
+
+.vjs-fullscreen-control {
+  display: none;
+}
+
+.tooltipDiv {
+  display: inline-block;
+}
+
+.activeLabels, .frameRate, .startLabelTime, .currentLabel, .skipSeconds {
+  font-size: x-small;
+}
+
+.activeLabels, .startLabelTime, .currentLabel {
+  text-align: left;
+}
